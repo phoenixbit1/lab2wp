@@ -199,8 +199,8 @@ function updateBees() { // update loop for game
 }
 
 function addbees() {
-    let num =nbBees+1;
-    var bee=new Bee(num);
+    let number =nbBees+1;
+    var bee=new Bee(number);
     bee.display();
     bees.push(bee);
     i++;
